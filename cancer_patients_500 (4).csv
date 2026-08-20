@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Country,Cancer_Type,Cancer_Stage,Treatment,Treatment_Cost,Survival_Years,Diagnosis_Year,Severity_Score,Smoking_Status,Recovery_Status
+P0001,56,Female,UK,Breast,Stage III,Immunotherapy,24873,5.3,2021,22,No,Recovered
+P0002,69,Female,Australia,Colorectal,Stage IV,Immunotherapy,45372,5.4,2019,51,Yes,Under Treatment
+P0003,46,Male,Germany,Skin,Stage IV,Radiation,94464,14.8,2022,48,Yes,Under Treatment
+P0004,32,Female,USA,Leukemia,Stage III,Chemotherapy,20379,9.6,2018,21,Yes,Critical
+P0005,60,Female,UK,Prostate,Stage III,Immunotherapy,41751,8.2,2016,22,Yes,Under Treatment
+P0006,25,Female,Brazil,Colorectal,Stage I,Radiation,94822,12.7,2025,100,Yes,Under Treatment
+P0007,78,Female,Australia,Liver,Stage III,Radiation,10110,4.6,2020,98,Yes,Recovered
+P0008,38,Female,Japan,Skin,Stage I,Targeted Therapy,59341,6.7,2023,30,No,Recovered
+P0009,56,Male,India,Breast,Stage III,Targeted Therapy,17087,4.4,2015,25,Yes,Under Treatment
+P0010,75,Female,USA,Breast,Stage IV,Radiation,28762,11.9,2025,28,Yes,Recovered
+P0011,36,Male,USA,Liver,Stage III,Targeted Therapy,87617,8.8,2024,65,Yes,Under Treatment
+P0012,40,Female,Brazil,Liver,Stage II,Immunotherapy,14596,10.1,2021,45,Yes,Recovered
+P0013,28,Male,Germany,Prostate,Stage II,Surgery,23313,4.2,2024,68,No,Recovered
+P0014,28,Male,USA,Leukemia,Stage I,Immunotherapy,71549,3.7,2023,7,Yes,Recovered
+P0015,41,Female,UK,Breast,Stage III,Radiation,28705,7.6,2024,49,Yes,Recovered
+P0016,70,Female,Australia,Skin,Stage I,Radiation,72364,11.2,2023,9,Yes,Recovered
+P0017,53,Female,Australia,Colorectal,Stage I,Immunotherapy,78445,8.1,2024,36,Yes,Under Treatment
+P0018,57,Male,Japan,Skin,Stage II,Targeted Therapy,83645,1.0,2025,83,No,Recovered
+P0019,41,Female,Brazil,Lung,Stage III,Targeted Therapy,7023,13.1,2017,1,Yes,Under Treatment
+P0020,20,Male,India,Lung,Stage III,Radiation,64796,1.4,2025,10,No,Recovered
+P0021,39,Male,Germany,Liver,Stage I,Chemotherapy,85073,14.4,2019,36,Yes,Recovered
+P0022,70,Male,India,Prostate,Stage II,Targeted Therapy,97197,0.9,2022,73,No,Recovered
+P0023,19,Female,USA,Lung,Stage II,Immunotherapy,69429,10.6,2022,46,No,Under Treatment
+P0024,41,Female,Brazil,Breast,Stage III,Targeted Therapy,66627,1.7,2018,32,Yes,Recovered
+P0025,61,Male,Japan,Skin,Stage III,Immunotherapy,38848,13.7,2025,32,Yes,Under Treatment
+P0026,47,Male,India,Skin,Stage II,Radiation,42804,7.2,2025,6,No,Recovered
+P0027,55,Female,UK,Liver,Stage III,Targeted Therapy,20379,2.5,2015,48,No,Under Treatment
+P0028,19,Male,Australia,Leukemia,Stage II,Immunotherapy,64664,5.4,2015,38,Yes,Recovered
+P0029,77,Female,USA,Leukemia,Stage IV,Radiation,32766,2.9,2018,17,No,Under Treatment
+P0030,38,Male,Japan,Colorectal,Stage II,Chemotherapy,73099,3.0,2020,74,No,Under Treatment
+P0031,50,Female,India,Liver,Stage II,Immunotherapy,41060,14.2,2022,27,No,Critical
+P0032,29,Male,Germany,Cervical,Stage II,Chemotherapy,99733,7.0,2020,54,Yes,Recovered
+P0033,75,Female,UK,Colorectal,Stage III,Chemotherapy,74122,11.9,2023,50,No,Recovered
+P0034,39,Male,UK,Cervical,Stage III,Surgery,21087,9.8,2023,35,No,Recovered
+P0035,78,Female,India,Leukemia,Stage II,Targeted Therapy,53868,10.3,2016,85,No,Under Treatment
+P0036,61,Female,Australia,Liver,Stage III,Immunotherapy,28225,2.4,2024,25,Yes,Under Treatment
+P0037,42,Male,India,Cervical,Stage III,Chemotherapy,11643,3.9,2015,28,Yes,Under Treatment
+P0038,66,Male,USA,Liver,Stage II,Surgery,98059,11.9,2016,15,No,Recovered
+P0039,44,Female,India,Liver,Stage II,Radiation,41727,14.6,2019,4,Yes,Recovered
+P0040,76,Male,UK,Leukemia,Stage IV,Immunotherapy,16005,4.3,2018,93,No,Recovered
+P0041,80,Female,Japan,Colorectal,Stage II,Chemotherapy,70697,4.4,2018,73,Yes,Critical
+P0042,59,Male,India,Colorectal,Stage II,Targeted Therapy,21029,7.4,2023,27,Yes,Under Treatment
+P0043,45,Female,Australia,Liver,Stage IV,Surgery,19226,14.8,2025,26,No,Critical
+P0044,77,Female,Brazil,Lung,Stage I,Chemotherapy,68646,4.4,2022,19,Yes,Recovered
+P0045,33,Female,Japan,Prostate,Stage I,Targeted Therapy,65603,6.4,2020,92,Yes,Under Treatment
+P0046,32,Female,Germany,Leukemia,Stage II,Chemotherapy,33731,13.4,2015,17,Yes,Under Treatment
+P0047,79,Female,Canada,Prostate,Stage IV,Immunotherapy,73926,0.5,2016,43,No,Recovered
+P0048,79,Female,India,Prostate,Stage I,Immunotherapy,10997,1.1,2020,41,Yes,Under Treatment
+P0049,64,Male,Australia,Colorectal,Stage I,Immunotherapy,60506,9.3,2025,42,Yes,Critical
+P0050,79,Male,Japan,Colorectal,Stage I,Surgery,83229,13.7,2016,50,No,Critical
+P0051,68,Male,Australia,Lung,Stage I,Immunotherapy,54815,4.0,2024,84,Yes,Under Treatment
+P0052,61,Female,Germany,Prostate,Stage I,Targeted Therapy,47092,7.3,2019,40,Yes,Recovered
+P0053,72,Female,UK,Prostate,Stage II,Chemotherapy,67539,7.0,2019,39,Yes,Recovered
+P0054,69,Female,Australia,Liver,Stage III,Radiation,71077,7.4,2020,23,Yes,Critical
+P0055,74,Female,Japan,Colorectal,Stage II,Targeted Therapy,26817,9.5,2020,96,Yes,Recovered
+P0056,20,Male,Australia,Prostate,Stage II,Targeted Therapy,42861,7.3,2020,52,No,Under Treatment
+P0057,54,Male,Australia,Skin,Stage I,Immunotherapy,18428,7.0,2016,47,No,Under Treatment
+P0058,68,Female,Australia,Lung,Stage II,Surgery,48934,7.4,2024,63,Yes,Under Treatment
+P0059,24,Male,USA,Cervical,Stage II,Chemotherapy,15258,9.1,2017,97,Yes,Critical
+P0060,38,Male,USA,Skin,Stage III,Surgery,62775,8.3,2020,69,Yes,Recovered
+P0061,26,Female,UK,Skin,Stage I,Chemotherapy,86580,12.9,2022,43,No,Recovered
+P0062,56,Male,India,Cervical,Stage II,Chemotherapy,99947,1.2,2025,48,No,Recovered
+P0063,35,Female,Australia,Leukemia,Stage II,Surgery,10469,12.6,2015,34,Yes,Recovered
+P0064,21,Male,Germany,Leukemia,Stage IV,Targeted Therapy,33854,12.7,2015,40,Yes,Recovered
+P0065,42,Female,India,Lung,Stage III,Chemotherapy,11256,4.6,2025,75,No,Recovered
+P0066,77,Female,Germany,Skin,Stage III,Surgery,81256,7.2,2016,61,Yes,Under Treatment
+P0067,31,Female,India,Prostate,Stage II,Chemotherapy,38937,6.9,2025,50,No,Critical
+P0068,67,Female,UK,Colorectal,Stage IV,Radiation,6651,3.7,2020,67,No,Recovered
+P0069,75,Male,Australia,Lung,Stage I,Targeted Therapy,55288,6.3,2023,62,Yes,Recovered
+P0070,26,Female,Australia,Liver,Stage I,Immunotherapy,89730,1.1,2018,58,No,Critical
+P0071,43,Female,Canada,Cervical,Stage II,Chemotherapy,30051,4.5,2017,33,Yes,Recovered
+P0072,70,Female,Germany,Skin,Stage I,Radiation,32386,12.3,2022,75,Yes,Recovered
+P0073,19,Male,India,Lung,Stage IV,Immunotherapy,80054,4.6,2025,16,Yes,Recovered
+P0074,37,Female,India,Breast,Stage III,Immunotherapy,21184,12.4,2024,82,Yes,Under Treatment
+P0075,45,Male,Brazil,Breast,Stage II,Chemotherapy,38787,8.2,2023,94,Yes,Recovered
+P0076,64,Female,Brazil,Leukemia,Stage III,Surgery,26621,13.3,2025,48,Yes,Critical
+P0077,77,Male,USA,Cervical,Stage IV,Chemotherapy,80564,8.8,2019,10,No,Recovered
+P0078,24,Male,Canada,Colorectal,Stage IV,Radiation,82984,0.9,2023,82,No,Under Treatment
+P0079,61,Female,Japan,Prostate,Stage III,Immunotherapy,64792,10.3,2016,38,No,Recovered
+P0080,78,Male,Brazil,Colorectal,Stage IV,Chemotherapy,50253,1.2,2017,19,No,Under Treatment
+P0081,25,Female,Japan,Colorectal,Stage IV,Surgery,39051,7.0,2021,36,Yes,Under Treatment
+P0082,64,Female,USA,Colorectal,Stage III,Chemotherapy,54811,14.0,2021,59,No,Under Treatment
+P0083,52,Female,USA,Cervical,Stage I,Targeted Therapy,35447,2.9,2020,63,No,Under Treatment
+P0084,31,Male,USA,Colorectal,Stage II,Surgery,88930,6.2,2020,77,No,Under Treatment
+P0085,34,Male,Germany,Liver,Stage IV,Radiation,35254,11.1,2016,46,Yes,Critical
+P0086,53,Female,Germany,Cervical,Stage I,Immunotherapy,89045,13.3,2024,3,No,Under Treatment
+P0087,67,Female,UK,Liver,Stage IV,Chemotherapy,62418,10.2,2020,74,Yes,Under Treatment
+P0088,57,Male,UK,Cervical,Stage I,Surgery,19472,4.2,2018,65,No,Recovered
+P0089,21,Female,USA,Leukemia,Stage I,Targeted Therapy,8471,10.3,2017,91,Yes,Recovered
+P0090,19,Female,Canada,Lung,Stage II,Surgery,13329,4.8,2025,8,Yes,Recovered
+P0091,79,Female,India,Breast,Stage I,Targeted Therapy,39865,10.9,2016,51,No,Under Treatment
+P0092,23,Male,Germany,Colorectal,Stage IV,Radiation,51850,14.3,2015,81,Yes,Recovered
+P0093,71,Male,Canada,Leukemia,Stage III,Immunotherapy,59220,11.0,2025,73,Yes,Recovered
+P0094,59,Male,Australia,Lung,Stage III,Radiation,98808,13.0,2025,6,No,Critical
+P0095,21,Female,Germany,Breast,Stage III,Chemotherapy,11397,0.5,2019,89,No,Critical
+P0096,71,Female,Germany,Skin,Stage I,Surgery,40525,10.9,2016,39,No,Critical
+P0097,46,Female,UK,Prostate,Stage II,Targeted Therapy,58072,12.5,2016,60,Yes,Recovered
+P0098,80,Male,India,Liver,Stage III,Targeted Therapy,95106,1.1,2021,28,Yes,Under Treatment
+P0099,35,Female,India,Skin,Stage II,Surgery,88820,13.1,2022,97,Yes,Recovered
+P0100,43,Female,Brazil,Cervical,Stage II,Surgery,89530,4.2,2024,54,No,Recovered
+P0101,61,Female,Japan,Breast,Stage II,Chemotherapy,28284,10.1,2022,37,Yes,Recovered
+P0102,51,Female,Japan,Skin,Stage II,Radiation,66330,12.1,2018,9,Yes,Recovered
+P0103,27,Male,Japan,Prostate,Stage IV,Targeted Therapy,88369,10.1,2015,82,Yes,Recovered
+P0104,79,Male,Japan,Leukemia,Stage IV,Chemotherapy,30122,1.8,2025,56,Yes,Under Treatment
+P0105,53,Female,Australia,Breast,Stage II,Radiation,75553,9.1,2021,59,Yes,Recovered
+P0106,31,Male,Australia,Skin,Stage III,Chemotherapy,86906,8.5,2015,85,Yes,Under Treatment
+P0107,48,Male,Germany,Liver,Stage III,Targeted Therapy,99788,13.6,2025,2,Yes,Under Treatment
+P0108,65,Female,USA,Liver,Stage I,Surgery,67812,6.4,2018,61,No,Recovered
+P0109,32,Female,UK,Lung,Stage IV,Surgery,12999,5.2,2022,58,No,Under Treatment
+P0110,25,Male,UK,Skin,Stage IV,Radiation,27436,11.4,2016,60,No,Recovered
+P0111,31,Female,Japan,Colorectal,Stage II,Immunotherapy,47963,6.5,2020,40,Yes,Under Treatment
+P0112,40,Male,Germany,Skin,Stage II,Radiation,7096,9.9,2020,36,Yes,Recovered
+P0113,77,Female,Brazil,Leukemia,Stage II,Immunotherapy,30279,9.9,2023,37,No,Recovered
+P0114,74,Male,Canada,Breast,Stage II,Chemotherapy,31201,13.4,2019,79,Yes,Recovered
+P0115,79,Female,USA,Breast,Stage I,Chemotherapy,24715,9.2,2024,92,No,Under Treatment
+P0116,57,Male,Germany,Leukemia,Stage IV,Targeted Therapy,34309,7.8,2018,18,Yes,Critical
+P0117,38,Male,USA,Skin,Stage I,Immunotherapy,20078,2.5,2019,98,Yes,Recovered
+P0118,33,Male,USA,Leukemia,Stage II,Targeted Therapy,61614,2.2,2024,63,No,Under Treatment
+P0119,62,Female,USA,Prostate,Stage IV,Surgery,10105,2.7,2025,22,No,Under Treatment
+P0120,35,Male,Germany,Cervical,Stage III,Immunotherapy,99848,3.0,2019,11,No,Critical
+P0121,64,Male,Japan,Leukemia,Stage II,Radiation,7839,9.7,2022,58,No,Under Treatment
+P0122,70,Female,UK,Liver,Stage II,Surgery,73920,11.2,2024,57,No,Under Treatment
+P0123,41,Female,UK,Leukemia,Stage I,Surgery,48619,8.2,2022,77,Yes,Under Treatment
+P0124,43,Male,Japan,Breast,Stage III,Radiation,47821,12.5,2016,4,Yes,Critical
+P0125,42,Male,USA,Liver,Stage I,Surgery,18493,14.9,2021,86,Yes,Recovered
+P0126,77,Female,Canada,Breast,Stage II,Immunotherapy,22069,12.4,2022,7,No,Recovered
+P0127,77,Female,India,Lung,Stage IV,Targeted Therapy,12531,10.6,2025,61,No,Recovered
+P0128,77,Female,Germany,Colorectal,Stage I,Surgery,42051,8.2,2020,54,No,Under Treatment
+P0129,62,Female,India,Breast,Stage IV,Immunotherapy,12736,7.0,2019,88,No,Under Treatment
+P0130,58,Female,Brazil,Liver,Stage IV,Chemotherapy,12710,1.7,2025,68,No,Recovered
+P0131,46,Male,Japan,Lung,Stage I,Immunotherapy,72155,6.3,2023,92,No,Under Treatment
+P0132,32,Female,Canada,Breast,Stage IV,Targeted Therapy,18975,13.7,2017,79,Yes,Under Treatment
+P0133,62,Male,Germany,Prostate,Stage II,Immunotherapy,67424,12.2,2024,1,Yes,Recovered
+P0134,18,Male,Japan,Leukemia,Stage IV,Radiation,50603,3.6,2018,55,Yes,Critical
+P0135,42,Male,USA,Colorectal,Stage III,Targeted Therapy,28252,7.3,2023,3,Yes,Recovered
+P0136,24,Female,UK,Breast,Stage III,Chemotherapy,85797,12.3,2020,78,Yes,Recovered
+P0137,26,Male,India,Lung,Stage II,Radiation,6431,1.5,2022,38,No,Under Treatment
+P0138,41,Male,Australia,Prostate,Stage IV,Immunotherapy,79603,6.1,2021,1,No,Under Treatment
+P0139,18,Female,Australia,Skin,Stage III,Targeted Therapy,42481,12.9,2025,38,No,Recovered
+P0140,61,Male,Canada,Lung,Stage II,Chemotherapy,97573,6.4,2016,85,No,Under Treatment
+P0141,25,Male,USA,Leukemia,Stage IV,Radiation,14557,1.6,2017,29,No,Under Treatment
+P0142,41,Female,Brazil,Lung,Stage I,Chemotherapy,79971,8.4,2015,5,No,Recovered
+P0143,80,Male,India,Prostate,Stage I,Immunotherapy,5162,13.0,2023,74,Yes,Recovered
+P0144,28,Male,USA,Lung,Stage I,Chemotherapy,39742,9.1,2021,92,No,Under Treatment
+P0145,68,Male,India,Prostate,Stage II,Surgery,24675,3.8,2015,21,No,Recovered
+P0146,34,Female,Canada,Breast,Stage I,Radiation,78997,6.1,2017,71,No,Critical
+P0147,25,Female,Canada,Cervical,Stage IV,Chemotherapy,22015,7.0,2018,67,No,Under Treatment
+P0148,52,Female,Brazil,Prostate,Stage I,Immunotherapy,55057,8.9,2018,47,Yes,Critical
+P0149,52,Male,Australia,Prostate,Stage III,Immunotherapy,37591,11.5,2019,84,Yes,Recovered
+P0150,50,Male,USA,Colorectal,Stage I,Chemotherapy,98583,1.9,2017,83,No,Critical
+P0151,76,Female,Germany,Prostate,Stage IV,Immunotherapy,14833,13.4,2017,35,Yes,Recovered
+P0152,22,Male,Australia,Prostate,Stage IV,Targeted Therapy,12896,0.7,2015,68,Yes,Recovered
+P0153,59,Male,USA,Skin,Stage II,Targeted Therapy,37972,5.9,2021,69,No,Recovered
+P0154,56,Female,Australia,Cervical,Stage IV,Targeted Therapy,54733,0.9,2025,1,No,Recovered
+P0155,75,Female,Germany,Breast,Stage I,Surgery,46800,6.2,2024,68,No,Under Treatment
+P0156,58,Male,UK,Leukemia,Stage III,Chemotherapy,10347,8.1,2015,12,No,Under Treatment
+P0157,45,Male,UK,Colorectal,Stage I,Surgery,64063,7.9,2016,60,No,Recovered
+P0158,24,Male,Brazil,Skin,Stage IV,Immunotherapy,7643,2.9,2018,27,Yes,Under Treatment
+P0159,26,Female,UK,Liver,Stage I,Surgery,45785,9.9,2018,56,No,Recovered
+P0160,25,Female,UK,Cervical,Stage III,Immunotherapy,23681,1.1,2019,23,No,Under Treatment
+P0161,29,Female,Japan,Breast,Stage III,Immunotherapy,55026,11.5,2025,25,No,Recovered
+P0162,51,Female,India,Breast,Stage II,Radiation,20892,14.2,2016,21,Yes,Under Treatment
+P0163,50,Male,Japan,Liver,Stage I,Targeted Therapy,52299,5.4,2018,61,No,Under Treatment
+P0164,65,Female,Japan,Leukemia,Stage I,Immunotherapy,22073,8.0,2015,63,No,Under Treatment
+P0165,72,Female,Brazil,Prostate,Stage II,Radiation,35682,6.0,2016,52,No,Recovered
+P0166,40,Female,Japan,Skin,Stage III,Targeted Therapy,19289,0.6,2015,88,Yes,Recovered
+P0167,79,Female,UK,Lung,Stage I,Immunotherapy,12927,6.1,2024,25,No,Under Treatment
+P0168,41,Female,Germany,Colorectal,Stage II,Immunotherapy,53330,12.0,2024,55,No,Recovered
+P0169,54,Male,Brazil,Lung,Stage I,Surgery,71707,9.1,2018,46,No,Recovered
+P0170,52,Male,Brazil,Liver,Stage III,Surgery,82454,2.0,2018,32,Yes,Recovered
+P0171,61,Female,Canada,Breast,Stage I,Targeted Therapy,70428,12.8,2021,55,No,Under Treatment
+P0172,57,Male,Brazil,Leukemia,Stage II,Immunotherapy,55601,8.2,2024,96,No,Under Treatment
+P0173,39,Female,Canada,Breast,Stage I,Chemotherapy,82465,12.7,2025,5,No,Under Treatment
+P0174,44,Female,Brazil,Colorectal,Stage II,Surgery,7539,8.9,2025,36,Yes,Recovered
+P0175,52,Male,India,Breast,Stage IV,Targeted Therapy,27669,8.6,2023,49,No,Recovered
+P0176,18,Male,UK,Breast,Stage II,Immunotherapy,75968,2.0,2023,58,No,Under Treatment
+P0177,52,Female,Brazil,Colorectal,Stage I,Immunotherapy,25644,2.9,2019,39,No,Under Treatment
+P0178,54,Female,UK,Skin,Stage III,Chemotherapy,23745,14.6,2024,80,Yes,Recovered
+P0179,64,Female,UK,Skin,Stage III,Targeted Therapy,33228,3.8,2015,97,Yes,Under Treatment
+P0180,31,Male,Australia,Colorectal,Stage I,Immunotherapy,39521,14.7,2015,85,No,Recovered
+P0181,20,Female,Brazil,Leukemia,Stage III,Surgery,31928,8.2,2020,61,Yes,Critical
+P0182,18,Female,USA,Liver,Stage IV,Chemotherapy,23322,2.5,2016,9,Yes,Recovered
+P0183,22,Female,Australia,Cervical,Stage I,Targeted Therapy,62714,1.9,2022,6,Yes,Critical
+P0184,43,Male,USA,Breast,Stage III,Chemotherapy,92896,3.5,2023,35,No,Under Treatment
+P0185,72,Female,UK,Leukemia,Stage III,Surgery,67292,13.9,2018,39,No,Under Treatment
+P0186,80,Female,UK,Breast,Stage II,Targeted Therapy,34055,6.5,2019,22,Yes,Recovered
+P0187,31,Male,Australia,Cervical,Stage I,Chemotherapy,47891,6.2,2025,41,Yes,Under Treatment
+P0188,56,Female,Australia,Liver,Stage I,Radiation,86912,5.0,2022,5,Yes,Recovered
+P0189,44,Female,USA,Skin,Stage IV,Surgery,11588,2.6,2017,42,No,Recovered
+P0190,26,Male,Canada,Leukemia,Stage IV,Surgery,95536,7.6,2019,87,No,Under Treatment
+P0191,32,Female,USA,Prostate,Stage III,Surgery,11304,2.4,2017,81,Yes,Critical
+P0192,32,Male,Australia,Prostate,Stage II,Radiation,12345,12.6,2024,76,Yes,Under Treatment
+P0193,43,Male,Germany,Cervical,Stage III,Radiation,34300,5.9,2017,87,Yes,Under Treatment
+P0194,59,Female,Australia,Prostate,Stage III,Immunotherapy,29259,5.9,2017,80,Yes,Recovered
+P0195,77,Female,Germany,Skin,Stage II,Chemotherapy,96006,7.4,2021,67,No,Recovered
+P0196,30,Female,India,Cervical,Stage I,Immunotherapy,93553,6.9,2021,30,Yes,Recovered
+P0197,68,Female,Australia,Skin,Stage III,Chemotherapy,20352,14.9,2021,57,No,Under Treatment
+P0198,80,Male,India,Liver,Stage II,Radiation,38365,8.4,2024,86,Yes,Critical
+P0199,49,Female,Canada,Breast,Stage III,Radiation,24446,1.8,2022,73,Yes,Under Treatment
+P0200,56,Male,USA,Liver,Stage II,Immunotherapy,7336,9.3,2019,29,Yes,Recovered
+P0201,66,Female,Germany,Liver,Stage I,Targeted Therapy,67032,2.7,2019,37,Yes,Recovered
+P0202,69,Female,USA,Skin,Stage I,Immunotherapy,80415,0.9,2018,87,Yes,Under Treatment
+P0203,78,Female,India,Cervical,Stage II,Chemotherapy,12521,14.6,2021,13,No,Recovered
+P0204,49,Male,Germany,Cervical,Stage IV,Immunotherapy,76707,11.7,2024,32,Yes,Under Treatment
+P0205,21,Female,USA,Prostate,Stage I,Surgery,28481,14.7,2018,46,Yes,Under Treatment
+P0206,47,Female,Australia,Lung,Stage IV,Chemotherapy,23474,7.4,2016,23,Yes,Under Treatment
+P0207,54,Female,UK,Breast,Stage II,Chemotherapy,51760,8.2,2018,45,No,Recovered
+P0208,40,Female,India,Skin,Stage III,Targeted Therapy,60718,2.9,2022,17,No,Recovered
+P0209,56,Male,USA,Prostate,Stage II,Radiation,49629,4.1,2023,85,No,Recovered
+P0210,62,Female,India,Leukemia,Stage IV,Chemotherapy,50232,12.7,2017,66,No,Recovered
+P0211,32,Male,Japan,Lung,Stage III,Radiation,91544,5.7,2021,6,Yes,Recovered
+P0212,60,Male,India,Lung,Stage I,Immunotherapy,72169,12.5,2023,18,Yes,Under Treatment
+P0213,46,Male,Germany,Skin,Stage I,Surgery,55669,10.8,2025,94,Yes,Under Treatment
+P0214,53,Male,Japan,Colorectal,Stage IV,Targeted Therapy,83021,3.1,2018,22,No,Recovered
+P0215,30,Male,Brazil,Breast,Stage IV,Radiation,74184,7.9,2024,33,Yes,Recovered
+P0216,49,Male,Germany,Lung,Stage I,Chemotherapy,52945,10.3,2017,30,Yes,Recovered
+P0217,24,Female,UK,Skin,Stage III,Radiation,18140,3.9,2019,81,No,Recovered
+P0218,76,Male,Japan,Skin,Stage IV,Chemotherapy,88457,12.5,2015,32,No,Under Treatment
+P0219,68,Male,Brazil,Prostate,Stage IV,Radiation,19357,8.4,2017,42,No,Recovered
+P0220,39,Male,Australia,Leukemia,Stage IV,Chemotherapy,73673,2.9,2022,78,Yes,Recovered
+P0221,45,Female,India,Colorectal,Stage III,Immunotherapy,70633,9.0,2025,10,Yes,Recovered
+P0222,19,Female,USA,Breast,Stage II,Chemotherapy,81943,15.0,2022,36,No,Critical
+P0223,59,Male,Canada,Cervical,Stage II,Chemotherapy,83258,2.7,2018,34,Yes,Under Treatment
+P0224,62,Female,India,Liver,Stage II,Surgery,17924,12.3,2016,73,No,Recovered
+P0225,79,Male,Brazil,Leukemia,Stage III,Chemotherapy,74286,3.5,2022,28,No,Under Treatment
+P0226,74,Male,India,Leukemia,Stage III,Surgery,98269,11.8,2022,11,Yes,Under Treatment
+P0227,70,Female,UK,Prostate,Stage I,Targeted Therapy,79071,11.2,2024,78,No,Critical
+P0228,23,Male,Australia,Cervical,Stage IV,Surgery,62326,4.9,2018,39,No,Recovered
+P0229,45,Female,Canada,Lung,Stage III,Immunotherapy,95023,5.2,2017,47,No,Critical
+P0230,45,Female,Japan,Lung,Stage III,Surgery,35651,12.0,2016,19,Yes,Critical
+P0231,61,Male,Japan,Prostate,Stage II,Targeted Therapy,75202,7.2,2023,15,No,Critical
+P0232,61,Male,Japan,Skin,Stage II,Immunotherapy,53777,11.1,2015,28,No,Under Treatment
+P0233,37,Female,Brazil,Lung,Stage I,Radiation,21994,2.6,2021,24,No,Under Treatment
+P0234,47,Male,Germany,Colorectal,Stage I,Radiation,72263,12.9,2019,72,No,Recovered
+P0235,79,Male,Germany,Breast,Stage I,Surgery,64634,10.8,2022,9,No,Under Treatment
+P0236,28,Male,USA,Leukemia,Stage I,Surgery,15800,13.7,2018,47,No,Under Treatment
+P0237,75,Female,Canada,Leukemia,Stage II,Targeted Therapy,42823,2.4,2021,33,No,Under Treatment
+P0238,72,Female,Japan,Colorectal,Stage II,Targeted Therapy,68878,9.1,2019,62,Yes,Recovered
+P0239,45,Male,Germany,Cervical,Stage I,Chemotherapy,23708,9.2,2019,97,Yes,Under Treatment
+P0240,42,Female,Brazil,Lung,Stage III,Targeted Therapy,17819,5.6,2023,19,No,Under Treatment
+P0241,56,Female,USA,Leukemia,Stage II,Chemotherapy,79905,7.1,2023,67,Yes,Recovered
+P0242,79,Female,Australia,Liver,Stage IV,Immunotherapy,68870,1.1,2023,74,Yes,Under Treatment
+P0243,50,Female,USA,Cervical,Stage IV,Surgery,14283,11.3,2020,40,No,Under Treatment
+P0244,18,Female,Germany,Breast,Stage I,Immunotherapy,35573,8.5,2020,47,Yes,Under Treatment
+P0245,74,Male,UK,Breast,Stage II,Targeted Therapy,83707,1.3,2019,65,No,Recovered
+P0246,44,Male,Brazil,Leukemia,Stage I,Immunotherapy,35933,10.4,2023,29,No,Recovered
+P0247,79,Male,UK,Prostate,Stage III,Immunotherapy,10774,7.3,2024,50,No,Critical
+P0248,74,Female,Japan,Cervical,Stage III,Immunotherapy,77055,1.0,2022,98,No,Recovered
+P0249,69,Female,UK,Leukemia,Stage I,Targeted Therapy,15983,14.6,2021,13,No,Under Treatment
+P0250,30,Male,Japan,Prostate,Stage III,Immunotherapy,23133,14.3,2021,1,Yes,Under Treatment
+P0251,58,Female,Japan,Leukemia,Stage I,Chemotherapy,19939,7.9,2020,34,No,Under Treatment
+P0252,20,Male,Germany,Liver,Stage I,Targeted Therapy,5781,1.9,2019,93,Yes,Recovered
+P0253,56,Male,UK,Cervical,Stage III,Immunotherapy,61700,11.4,2018,48,No,Under Treatment
+P0254,23,Male,Japan,Skin,Stage II,Targeted Therapy,32624,7.6,2017,77,No,Recovered
+P0255,25,Female,Canada,Breast,Stage III,Radiation,11823,4.9,2017,48,No,Recovered
+P0256,44,Female,Australia,Leukemia,Stage II,Chemotherapy,23489,7.6,2020,49,Yes,Recovered
+P0257,26,Male,USA,Liver,Stage IV,Immunotherapy,44961,8.1,2018,64,No,Recovered
+P0258,79,Male,USA,Prostate,Stage I,Radiation,34118,8.7,2020,61,No,Critical
+P0259,54,Male,Germany,Prostate,Stage II,Radiation,86816,6.9,2017,29,No,Critical
+P0260,50,Male,UK,Breast,Stage III,Targeted Therapy,27263,9.3,2018,39,No,Recovered
+P0261,68,Female,UK,Colorectal,Stage II,Radiation,18565,13.8,2023,88,Yes,Under Treatment
+P0262,59,Female,Japan,Leukemia,Stage IV,Chemotherapy,25354,5.8,2019,26,No,Recovered
+P0263,61,Male,Brazil,Cervical,Stage III,Chemotherapy,47951,11.0,2021,17,Yes,Under Treatment
+P0264,41,Male,India,Lung,Stage III,Surgery,96179,13.5,2024,71,No,Under Treatment
+P0265,32,Female,Japan,Prostate,Stage III,Chemotherapy,28648,7.1,2016,13,Yes,Critical
+P0266,76,Female,Australia,Cervical,Stage IV,Radiation,55729,6.9,2019,69,Yes,Recovered
+P0267,71,Male,Canada,Cervical,Stage IV,Chemotherapy,46971,9.2,2023,26,No,Under Treatment
+P0268,49,Male,USA,Skin,Stage III,Targeted Therapy,23658,9.1,2025,49,No,Recovered
+P0269,49,Male,Japan,Cervical,Stage III,Surgery,26253,12.2,2017,67,Yes,Critical
+P0270,41,Female,India,Cervical,Stage I,Radiation,69166,7.4,2023,7,No,Recovered
+P0271,58,Female,India,Skin,Stage I,Surgery,53563,14.9,2025,58,No,Under Treatment
+P0272,69,Female,Japan,Prostate,Stage III,Radiation,31390,1.4,2020,49,No,Under Treatment
+P0273,66,Male,Germany,Cervical,Stage I,Targeted Therapy,93664,0.5,2018,53,Yes,Under Treatment
+P0274,79,Male,USA,Colorectal,Stage II,Surgery,56578,9.8,2021,65,No,Recovered
+P0275,66,Female,Germany,Colorectal,Stage I,Immunotherapy,84025,4.8,2022,62,No,Critical
+P0276,75,Female,Canada,Liver,Stage II,Radiation,37658,4.0,2020,17,No,Recovered
+P0277,69,Male,India,Skin,Stage III,Immunotherapy,11852,5.0,2019,43,Yes,Under Treatment
+P0278,29,Female,India,Liver,Stage IV,Surgery,99986,4.2,2020,25,No,Recovered
+P0279,79,Female,Australia,Skin,Stage I,Immunotherapy,7551,0.9,2019,3,Yes,Recovered
+P0280,56,Male,Canada,Leukemia,Stage II,Immunotherapy,76947,14.6,2022,79,No,Under Treatment
+P0281,19,Female,India,Leukemia,Stage IV,Surgery,66001,3.7,2015,29,Yes,Recovered
+P0282,20,Male,Canada,Cervical,Stage I,Targeted Therapy,54159,11.1,2025,32,No,Recovered
+P0283,66,Male,USA,Lung,Stage III,Immunotherapy,56707,11.6,2021,26,No,Recovered
+P0284,54,Male,UK,Leukemia,Stage II,Immunotherapy,38243,14.0,2024,16,Yes,Recovered
+P0285,66,Male,India,Lung,Stage II,Targeted Therapy,26800,0.9,2024,25,Yes,Under Treatment
+P0286,73,Male,Australia,Leukemia,Stage IV,Immunotherapy,80939,13.1,2025,54,Yes,Critical
+P0287,34,Male,USA,Breast,Stage I,Immunotherapy,62828,8.1,2016,28,No,Recovered
+P0288,76,Male,Japan,Leukemia,Stage III,Immunotherapy,12239,9.7,2023,73,No,Recovered
+P0289,66,Female,Canada,Liver,Stage III,Chemotherapy,11710,9.8,2015,56,No,Recovered
+P0290,19,Male,Japan,Prostate,Stage I,Targeted Therapy,26384,12.4,2025,65,No,Recovered
+P0291,19,Male,Germany,Cervical,Stage III,Immunotherapy,26038,5.3,2024,93,Yes,Under Treatment
+P0292,45,Female,USA,Liver,Stage IV,Targeted Therapy,45846,11.1,2020,86,No,Under Treatment
+P0293,71,Female,Japan,Prostate,Stage I,Radiation,92983,8.2,2023,80,No,Recovered
+P0294,40,Female,Brazil,Colorectal,Stage IV,Radiation,72821,12.0,2015,41,No,Recovered
+P0295,54,Male,Brazil,Liver,Stage III,Immunotherapy,42991,14.9,2018,51,No,Recovered
+P0296,49,Female,India,Colorectal,Stage III,Targeted Therapy,84057,3.4,2018,71,No,Under Treatment
+P0297,50,Male,Canada,Lung,Stage III,Targeted Therapy,11971,14.9,2023,78,No,Critical
+P0298,18,Male,UK,Lung,Stage II,Targeted Therapy,34139,1.8,2025,29,No,Recovered
+P0299,36,Male,USA,Breast,Stage IV,Chemotherapy,90445,0.5,2019,83,Yes,Recovered
+P0300,79,Male,India,Leukemia,Stage IV,Radiation,82067,1.1,2019,19,No,Critical
+P0301,19,Female,Australia,Liver,Stage III,Targeted Therapy,85257,5.5,2020,66,No,Critical
+P0302,70,Female,Germany,Colorectal,Stage III,Targeted Therapy,89742,9.7,2015,41,No,Recovered
+P0303,61,Male,Canada,Prostate,Stage III,Chemotherapy,42711,1.5,2015,45,No,Recovered
+P0304,43,Male,USA,Lung,Stage II,Chemotherapy,11530,0.6,2023,15,Yes,Recovered
+P0305,49,Male,Brazil,Leukemia,Stage III,Targeted Therapy,16116,14.1,2017,3,Yes,Under Treatment
+P0306,23,Female,USA,Lung,Stage III,Surgery,70794,12.4,2018,11,Yes,Recovered
+P0307,49,Male,UK,Prostate,Stage III,Targeted Therapy,5282,12.2,2015,53,Yes,Recovered
+P0308,72,Male,Brazil,Leukemia,Stage III,Targeted Therapy,84473,13.3,2023,46,Yes,Under Treatment
+P0309,21,Female,UK,Leukemia,Stage II,Chemotherapy,6898,10.7,2022,30,Yes,Recovered
+P0310,72,Female,Australia,Colorectal,Stage I,Chemotherapy,9135,2.0,2016,57,No,Under Treatment
+P0311,28,Male,Germany,Colorectal,Stage I,Targeted Therapy,11629,6.3,2022,18,Yes,Recovered
+P0312,73,Female,Australia,Liver,Stage II,Targeted Therapy,90120,11.0,2021,51,Yes,Recovered
+P0313,76,Female,India,Liver,Stage III,Targeted Therapy,94087,4.6,2025,48,No,Under Treatment
+P0314,34,Male,India,Skin,Stage III,Chemotherapy,70031,10.5,2020,66,Yes,Recovered
+P0315,80,Female,Australia,Cervical,Stage III,Targeted Therapy,38380,0.9,2015,96,No,Critical
+P0316,55,Male,Germany,Skin,Stage II,Targeted Therapy,22071,4.9,2021,8,No,Under Treatment
+P0317,41,Female,Australia,Breast,Stage III,Immunotherapy,25074,8.5,2024,22,Yes,Recovered
+P0318,22,Male,Germany,Lung,Stage II,Surgery,95724,9.7,2021,6,No,Under Treatment
+P0319,69,Male,Germany,Liver,Stage II,Radiation,72843,8.9,2023,76,Yes,Recovered
+P0320,51,Male,Japan,Colorectal,Stage III,Surgery,44901,10.6,2015,57,Yes,Critical
+P0321,23,Female,Brazil,Prostate,Stage IV,Immunotherapy,16205,0.6,2016,36,No,Recovered
+P0322,39,Male,Canada,Colorectal,Stage II,Radiation,60661,2.0,2025,79,No,Under Treatment
+P0323,28,Female,Germany,Lung,Stage I,Targeted Therapy,10906,13.1,2023,92,Yes,Recovered
+P0324,80,Male,UK,Skin,Stage I,Immunotherapy,7591,10.4,2023,57,No,Recovered
+P0325,65,Male,Germany,Colorectal,Stage I,Targeted Therapy,67987,2.1,2020,49,No,Under Treatment
+P0326,33,Female,Germany,Cervical,Stage III,Chemotherapy,68370,12.7,2020,45,Yes,Under Treatment
+P0327,50,Male,Germany,Breast,Stage II,Immunotherapy,85685,4.0,2018,82,Yes,Recovered
+P0328,26,Male,Japan,Lung,Stage II,Chemotherapy,59400,7.4,2018,66,No,Recovered
+P0329,77,Female,Brazil,Skin,Stage II,Immunotherapy,30150,2.6,2019,77,Yes,Under Treatment
+P0330,76,Male,Japan,Cervical,Stage I,Immunotherapy,36852,10.8,2017,45,Yes,Critical
+P0331,23,Male,India,Prostate,Stage II,Chemotherapy,47870,10.2,2015,79,Yes,Recovered
+P0332,33,Male,Japan,Skin,Stage I,Radiation,57756,3.6,2015,20,Yes,Under Treatment
+P0333,46,Male,UK,Leukemia,Stage II,Surgery,61481,13.0,2021,64,Yes,Recovered
+P0334,20,Female,UK,Cervical,Stage I,Targeted Therapy,6283,6.3,2015,93,Yes,Critical
+P0335,37,Female,Japan,Cervical,Stage IV,Immunotherapy,38691,4.7,2015,93,Yes,Recovered
+P0336,77,Male,Brazil,Breast,Stage I,Targeted Therapy,6125,2.7,2017,67,No,Recovered
+P0337,76,Female,Australia,Lung,Stage IV,Chemotherapy,72065,4.4,2024,83,Yes,Under Treatment
+P0338,53,Male,Canada,Prostate,Stage II,Targeted Therapy,31170,0.8,2018,3,No,Recovered
+P0339,36,Female,Brazil,Breast,Stage IV,Chemotherapy,13438,9.0,2018,54,No,Under Treatment
+P0340,43,Male,Japan,Skin,Stage III,Targeted Therapy,25095,12.7,2016,78,No,Recovered
+P0341,20,Male,Germany,Breast,Stage III,Surgery,21154,8.5,2015,64,Yes,Recovered
+P0342,80,Male,USA,Cervical,Stage III,Surgery,13004,3.7,2017,40,Yes,Recovered
+P0343,36,Male,Canada,Lung,Stage II,Surgery,14752,1.0,2025,59,No,Under Treatment
+P0344,37,Male,Canada,Liver,Stage II,Surgery,60426,3.6,2018,55,Yes,Recovered
+P0345,49,Male,UK,Breast,Stage II,Surgery,31819,6.5,2017,62,No,Under Treatment
+P0346,24,Female,Canada,Leukemia,Stage III,Surgery,97051,11.5,2022,4,Yes,Under Treatment
+P0347,69,Male,Japan,Breast,Stage I,Chemotherapy,29217,3.2,2024,60,Yes,Under Treatment
+P0348,58,Female,Germany,Skin,Stage II,Immunotherapy,93708,10.9,2015,75,No,Recovered
+P0349,50,Male,Germany,Skin,Stage III,Targeted Therapy,37994,13.1,2016,95,No,Recovered
+P0350,57,Female,India,Prostate,Stage III,Surgery,20036,7.1,2021,96,No,Recovered
+P0351,56,Female,Germany,Skin,Stage III,Chemotherapy,82275,12.4,2018,91,Yes,Recovered
+P0352,35,Female,Brazil,Colorectal,Stage III,Chemotherapy,54416,8.5,2022,30,No,Recovered
+P0353,57,Male,Germany,Lung,Stage IV,Chemotherapy,14587,9.7,2025,2,Yes,Under Treatment
+P0354,18,Male,UK,Lung,Stage II,Immunotherapy,5645,8.1,2017,62,Yes,Recovered
+P0355,28,Female,Germany,Liver,Stage II,Targeted Therapy,35930,7.2,2020,49,Yes,Recovered
+P0356,45,Male,India,Liver,Stage II,Immunotherapy,86835,3.9,2023,9,No,Recovered
+P0357,74,Female,USA,Lung,Stage II,Radiation,35090,4.9,2015,92,No,Under Treatment
+P0358,42,Male,Japan,Leukemia,Stage IV,Chemotherapy,92489,4.7,2015,31,No,Recovered
+P0359,67,Female,UK,Liver,Stage I,Radiation,57142,8.7,2022,98,Yes,Under Treatment
+P0360,40,Female,Brazil,Prostate,Stage III,Surgery,31475,2.2,2017,61,Yes,Recovered
+P0361,48,Male,USA,Skin,Stage II,Surgery,23888,13.8,2019,79,No,Critical
+P0362,47,Female,UK,Lung,Stage III,Immunotherapy,48732,10.9,2015,48,Yes,Critical
+P0363,59,Male,Australia,Cervical,Stage III,Targeted Therapy,86623,6.3,2019,25,Yes,Recovered
+P0364,52,Female,Canada,Liver,Stage II,Radiation,51305,2.8,2025,36,No,Recovered
+P0365,24,Female,Australia,Lung,Stage II,Targeted Therapy,51037,13.3,2020,8,No,Recovered
+P0366,77,Male,Germany,Colorectal,Stage II,Immunotherapy,14346,12.4,2022,73,No,Recovered
+P0367,33,Male,USA,Breast,Stage I,Surgery,5587,11.0,2017,58,Yes,Under Treatment
+P0368,43,Male,Germany,Skin,Stage II,Targeted Therapy,17763,4.4,2017,45,Yes,Under Treatment
+P0369,65,Female,Canada,Lung,Stage I,Targeted Therapy,64165,6.3,2025,62,Yes,Under Treatment
+P0370,74,Male,UK,Breast,Stage II,Surgery,74615,2.0,2025,39,Yes,Under Treatment
+P0371,69,Female,Canada,Liver,Stage III,Radiation,41116,3.2,2024,96,Yes,Recovered
+P0372,77,Female,India,Breast,Stage III,Surgery,90751,11.9,2023,58,No,Recovered
+P0373,66,Male,Canada,Skin,Stage III,Targeted Therapy,96353,10.9,2018,81,Yes,Under Treatment
+P0374,19,Male,India,Lung,Stage I,Radiation,95301,9.1,2018,99,Yes,Recovered
+P0375,18,Female,Canada,Colorectal,Stage III,Radiation,30556,13.5,2021,83,Yes,Under Treatment
+P0376,65,Female,Japan,Leukemia,Stage II,Surgery,64042,9.0,2016,64,No,Recovered
+P0377,79,Male,India,Liver,Stage II,Targeted Therapy,23099,7.3,2022,44,No,Recovered
+P0378,29,Male,USA,Lung,Stage IV,Immunotherapy,50096,5.4,2020,29,No,Critical
+P0379,22,Male,Germany,Skin,Stage I,Targeted Therapy,76986,14.1,2017,59,Yes,Recovered
+P0380,54,Male,Brazil,Liver,Stage III,Chemotherapy,18230,1.7,2023,71,No,Critical
+P0381,49,Male,Germany,Prostate,Stage III,Immunotherapy,34009,14.0,2019,92,No,Critical
+P0382,76,Female,Australia,Breast,Stage II,Radiation,75969,12.5,2022,9,No,Under Treatment
+P0383,72,Female,Germany,Leukemia,Stage I,Immunotherapy,38866,2.4,2021,92,Yes,Under Treatment
+P0384,26,Female,UK,Skin,Stage I,Radiation,89246,8.7,2022,6,No,Under Treatment
+P0385,58,Female,Japan,Prostate,Stage IV,Radiation,81975,13.1,2021,29,Yes,Critical
+P0386,52,Male,Canada,Cervical,Stage II,Immunotherapy,46855,8.8,2017,58,Yes,Recovered
+P0387,36,Male,Australia,Lung,Stage II,Radiation,86557,13.7,2016,17,No,Under Treatment
+P0388,65,Male,UK,Colorectal,Stage II,Radiation,11416,14.2,2021,16,Yes,Under Treatment
+P0389,33,Female,UK,Liver,Stage III,Chemotherapy,77516,6.6,2017,87,No,Recovered
+P0390,20,Female,India,Breast,Stage I,Targeted Therapy,60915,6.0,2017,95,Yes,Recovered
+P0391,37,Male,Germany,Liver,Stage II,Targeted Therapy,23058,14.1,2016,3,No,Recovered
+P0392,41,Male,USA,Leukemia,Stage III,Chemotherapy,81637,10.3,2018,21,No,Under Treatment
+P0393,71,Female,Brazil,Lung,Stage IV,Immunotherapy,45718,2.2,2022,64,No,Critical
+P0394,73,Female,USA,Liver,Stage II,Surgery,37602,1.1,2015,90,Yes,Recovered
+P0395,50,Male,Australia,Breast,Stage II,Surgery,79658,8.7,2015,36,No,Critical
+P0396,41,Male,Japan,Lung,Stage II,Surgery,83112,14.0,2019,86,Yes,Under Treatment
+P0397,69,Female,USA,Liver,Stage III,Chemotherapy,63067,12.7,2025,62,No,Under Treatment
+P0398,28,Male,Canada,Colorectal,Stage II,Chemotherapy,32516,10.3,2019,42,Yes,Under Treatment
+P0399,66,Male,USA,Skin,Stage II,Radiation,92969,2.5,2025,76,Yes,Under Treatment
+P0400,25,Male,Australia,Lung,Stage III,Surgery,6089,4.2,2015,42,No,Recovered
+P0401,53,Female,Brazil,Skin,Stage III,Immunotherapy,42346,13.2,2020,61,No,Under Treatment
+P0402,55,Female,USA,Cervical,Stage II,Immunotherapy,79663,3.2,2015,13,No,Recovered
+P0403,57,Female,Canada,Lung,Stage IV,Surgery,15487,4.5,2019,11,No,Critical
+P0404,37,Female,India,Colorectal,Stage III,Surgery,5155,2.4,2023,54,No,Critical
+P0405,79,Female,Japan,Skin,Stage II,Surgery,72494,10.3,2019,16,Yes,Recovered
+P0406,52,Female,Australia,Prostate,Stage I,Chemotherapy,81229,14.2,2020,8,No,Recovered
+P0407,65,Female,India,Breast,Stage IV,Chemotherapy,43547,4.4,2022,59,No,Under Treatment
+P0408,79,Male,India,Prostate,Stage I,Chemotherapy,33795,7.4,2025,57,Yes,Recovered
+P0409,42,Male,India,Liver,Stage I,Targeted Therapy,60296,9.7,2015,40,No,Critical
+P0410,52,Male,UK,Colorectal,Stage I,Immunotherapy,26447,15.0,2016,59,No,Recovered
+P0411,42,Male,Japan,Prostate,Stage III,Immunotherapy,41598,2.0,2023,2,Yes,Recovered
+P0412,46,Male,Brazil,Lung,Stage I,Radiation,46814,7.7,2017,94,No,Critical
+P0413,35,Male,Germany,Liver,Stage I,Chemotherapy,95751,6.1,2020,94,No,Under Treatment
+P0414,63,Male,Japan,Liver,Stage I,Targeted Therapy,80330,13.1,2019,76,No,Under Treatment
+P0415,35,Female,UK,Prostate,Stage I,Targeted Therapy,92960,7.4,2025,10,Yes,Recovered
+P0416,19,Female,Germany,Cervical,Stage III,Immunotherapy,68278,2.1,2016,44,No,Under Treatment
+P0417,71,Male,Japan,Prostate,Stage III,Chemotherapy,60077,9.7,2021,11,Yes,Under Treatment
+P0418,52,Male,India,Cervical,Stage II,Radiation,76906,11.7,2018,79,No,Under Treatment
+P0419,33,Female,Australia,Colorectal,Stage II,Chemotherapy,14528,0.5,2015,80,Yes,Under Treatment
+P0420,78,Male,Germany,Breast,Stage III,Surgery,98812,13.0,2018,81,No,Under Treatment
+P0421,58,Male,Canada,Prostate,Stage I,Chemotherapy,55100,3.2,2020,90,Yes,Recovered
+P0422,53,Female,Canada,Leukemia,Stage II,Surgery,13179,8.5,2021,2,Yes,Recovered
+P0423,50,Male,USA,Cervical,Stage IV,Surgery,53781,6.5,2021,50,Yes,Under Treatment
+P0424,21,Female,Germany,Prostate,Stage III,Radiation,60267,10.9,2021,12,Yes,Recovered
+P0425,50,Male,Australia,Skin,Stage II,Immunotherapy,87379,5.9,2017,90,Yes,Under Treatment
+P0426,31,Female,Brazil,Lung,Stage II,Chemotherapy,28952,13.1,2020,23,Yes,Recovered
+P0427,38,Female,UK,Leukemia,Stage II,Surgery,58798,11.1,2022,18,No,Under Treatment
+P0428,65,Female,India,Leukemia,Stage II,Chemotherapy,55939,9.9,2018,62,No,Under Treatment
+P0429,37,Male,USA,Cervical,Stage I,Immunotherapy,34516,12.0,2022,96,Yes,Recovered
+P0430,73,Female,Canada,Skin,Stage I,Immunotherapy,61526,11.4,2016,62,Yes,Recovered
+P0431,25,Male,UK,Skin,Stage I,Targeted Therapy,15449,1.0,2024,38,Yes,Recovered
+P0432,24,Male,UK,Liver,Stage IV,Immunotherapy,55290,6.2,2023,67,Yes,Under Treatment
+P0433,20,Male,India,Cervical,Stage III,Radiation,91661,14.0,2023,38,No,Under Treatment
+P0434,34,Male,Brazil,Breast,Stage I,Surgery,77954,2.3,2022,67,Yes,Recovered
+P0435,50,Female,Brazil,Lung,Stage I,Targeted Therapy,27746,11.2,2024,94,No,Under Treatment
+P0436,65,Female,Germany,Colorectal,Stage III,Radiation,72990,14.6,2024,61,No,Recovered
+P0437,29,Male,Canada,Leukemia,Stage I,Chemotherapy,63810,1.3,2015,1,Yes,Under Treatment
+P0438,76,Male,Brazil,Colorectal,Stage I,Surgery,88297,10.4,2016,94,Yes,Critical
+P0439,68,Female,Australia,Prostate,Stage IV,Immunotherapy,20223,7.3,2020,45,No,Recovered
+P0440,39,Male,Brazil,Prostate,Stage II,Surgery,77237,8.9,2024,96,No,Under Treatment
+P0441,72,Female,UK,Colorectal,Stage III,Chemotherapy,7597,1.7,2019,28,Yes,Recovered
+P0442,39,Male,India,Prostate,Stage IV,Targeted Therapy,70677,1.1,2023,21,Yes,Recovered
+P0443,63,Male,Australia,Breast,Stage II,Targeted Therapy,7659,10.2,2019,13,Yes,Recovered
+P0444,47,Female,Germany,Skin,Stage I,Targeted Therapy,91516,12.4,2016,27,No,Recovered
+P0445,55,Male,Canada,Prostate,Stage I,Immunotherapy,79567,11.8,2024,100,No,Under Treatment
+P0446,55,Female,Germany,Liver,Stage IV,Radiation,20037,8.4,2018,7,Yes,Recovered
+P0447,62,Male,UK,Prostate,Stage IV,Radiation,51738,1.9,2023,22,No,Under Treatment
+P0448,68,Male,Australia,Lung,Stage III,Surgery,76678,10.5,2015,74,No,Recovered
+P0449,71,Male,Australia,Breast,Stage I,Immunotherapy,17109,4.0,2025,53,Yes,Recovered
+P0450,25,Female,Australia,Lung,Stage III,Targeted Therapy,27010,13.7,2015,79,Yes,Under Treatment
+P0451,44,Male,UK,Lung,Stage IV,Targeted Therapy,13787,12.7,2021,79,No,Critical
+P0452,44,Male,UK,Liver,Stage III,Chemotherapy,13472,10.8,2025,4,No,Recovered
+P0453,51,Male,Germany,Breast,Stage IV,Chemotherapy,28383,14.3,2017,96,Yes,Critical
+P0454,38,Male,USA,Breast,Stage III,Targeted Therapy,66709,1.0,2024,23,Yes,Under Treatment
+P0455,47,Female,Germany,Cervical,Stage III,Targeted Therapy,74785,11.2,2016,70,Yes,Under Treatment
+P0456,50,Female,Canada,Breast,Stage III,Immunotherapy,39518,5.3,2023,88,Yes,Under Treatment
+P0457,45,Male,India,Breast,Stage II,Radiation,58909,13.6,2017,84,Yes,Recovered
+P0458,64,Female,Australia,Breast,Stage I,Chemotherapy,23351,4.4,2016,84,No,Recovered
+P0459,50,Male,USA,Liver,Stage III,Radiation,74624,11.0,2022,76,No,Under Treatment
+P0460,22,Male,India,Prostate,Stage II,Immunotherapy,58330,13.2,2024,33,No,Recovered
+P0461,77,Male,USA,Cervical,Stage IV,Targeted Therapy,20282,1.1,2020,28,No,Critical
+P0462,78,Female,Brazil,Lung,Stage IV,Radiation,89866,6.3,2020,8,Yes,Recovered
+P0463,65,Female,Brazil,Breast,Stage III,Targeted Therapy,26778,11.6,2024,1,Yes,Recovered
+P0464,36,Female,Japan,Leukemia,Stage I,Targeted Therapy,29264,7.1,2025,37,Yes,Under Treatment
+P0465,21,Female,Brazil,Prostate,Stage II,Surgery,64675,4.4,2021,63,No,Recovered
+P0466,52,Female,Germany,Prostate,Stage I,Radiation,10075,3.7,2021,22,No,Under Treatment
+P0467,66,Female,Brazil,Lung,Stage III,Radiation,80948,2.4,2025,70,No,Under Treatment
+P0468,34,Female,UK,Liver,Stage III,Targeted Therapy,53454,12.9,2020,21,Yes,Critical
+P0469,61,Female,Australia,Colorectal,Stage IV,Immunotherapy,33365,8.8,2018,96,No,Under Treatment
+P0470,45,Female,Germany,Colorectal,Stage II,Surgery,77766,1.6,2025,35,Yes,Under Treatment
+P0471,47,Male,India,Prostate,Stage IV,Targeted Therapy,53200,6.0,2023,79,Yes,Under Treatment
+P0472,46,Female,Japan,Skin,Stage IV,Chemotherapy,16002,5.8,2020,5,Yes,Critical
+P0473,63,Female,Japan,Skin,Stage II,Chemotherapy,18947,3.1,2018,60,Yes,Recovered
+P0474,70,Female,Japan,Lung,Stage IV,Surgery,84222,6.8,2017,46,Yes,Recovered
+P0475,23,Female,India,Colorectal,Stage II,Immunotherapy,99840,5.3,2018,50,Yes,Recovered
+P0476,52,Female,India,Prostate,Stage II,Targeted Therapy,83610,5.5,2017,48,No,Recovered
+P0477,77,Female,India,Liver,Stage III,Radiation,57142,11.2,2016,6,Yes,Under Treatment
+P0478,58,Female,India,Colorectal,Stage II,Surgery,61307,3.7,2019,89,Yes,Under Treatment
+P0479,54,Female,Japan,Prostate,Stage III,Immunotherapy,9493,9.8,2016,56,No,Under Treatment
+P0480,41,Female,Japan,Prostate,Stage III,Radiation,55085,8.8,2020,59,Yes,Recovered
+P0481,46,Female,USA,Breast,Stage III,Chemotherapy,39228,8.7,2017,29,No,Under Treatment
+P0482,66,Female,Germany,Liver,Stage II,Chemotherapy,84676,10.1,2020,71,No,Recovered
+P0483,63,Male,Australia,Breast,Stage II,Radiation,56875,8.5,2025,77,No,Under Treatment
+P0484,70,Male,Brazil,Lung,Stage III,Surgery,36655,13.2,2024,18,Yes,Under Treatment
+P0485,48,Female,Brazil,Breast,Stage II,Chemotherapy,48472,10.3,2023,2,Yes,Recovered
+P0486,52,Female,UK,Leukemia,Stage II,Targeted Therapy,54437,8.4,2015,8,No,Recovered
+P0487,77,Male,Japan,Breast,Stage I,Radiation,54416,12.5,2020,75,Yes,Recovered
+P0488,50,Female,UK,Leukemia,Stage III,Radiation,64711,9.3,2023,97,Yes,Under Treatment
+P0489,69,Male,Germany,Colorectal,Stage I,Chemotherapy,11816,4.7,2025,54,No,Critical
+P0490,80,Male,Germany,Skin,Stage III,Surgery,82175,3.5,2018,38,No,Under Treatment
+P0491,78,Male,UK,Cervical,Stage III,Targeted Therapy,69307,2.7,2025,48,Yes,Recovered
+P0492,38,Male,Japan,Cervical,Stage II,Surgery,51733,13.5,2016,27,No,Recovered
+P0493,49,Male,UK,Prostate,Stage II,Immunotherapy,16240,10.8,2018,20,No,Under Treatment
+P0494,40,Female,Brazil,Cervical,Stage IV,Immunotherapy,97493,14.1,2015,12,No,Under Treatment
+P0495,50,Male,USA,Leukemia,Stage IV,Chemotherapy,76363,9.2,2017,43,Yes,Recovered
+P0496,20,Female,Brazil,Liver,Stage IV,Chemotherapy,37762,7.4,2024,61,Yes,Recovered
+P0497,35,Female,Canada,Breast,Stage III,Chemotherapy,13259,1.4,2023,31,Yes,Under Treatment
+P0498,42,Male,Japan,Leukemia,Stage I,Immunotherapy,55139,10.2,2024,91,No,Recovered
+P0499,59,Male,Japan,Liver,Stage I,Surgery,19849,8.9,2019,96,Yes,Recovered
+P0500,48,Female,Australia,Skin,Stage II,Surgery,86768,14.9,2025,61,No,Recovered
